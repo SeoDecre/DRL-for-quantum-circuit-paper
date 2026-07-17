@@ -1,0 +1,5 @@
+# not part of the public replication package
+pdfs/
+paper/
+HANDOFF.md
+.DS_Store

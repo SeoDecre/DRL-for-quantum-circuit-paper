@@ -2280,7 +2280,7 @@ def main():
     global SPLIT_METRIC   # rebound by the config below and read by classify_problem & co.
 
     # ── Configuration ───────────────────────────────────────────────────
-    NUM_EPISODES        = 1000  # v2: longer run — best-model checkpointing keeps the peak anyway
+    NUM_EPISODES        = 2000  # v2: longer run — best-model checkpointing keeps the peak anyway
     CHECKPOINT_START    = 400 # first episode eligible for best-model checkpointing (ε ≈ 0.09 by then)
     CHECKPOINT_INTERVAL = 100
     PATIENCE            = 5
